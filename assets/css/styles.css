@@ -288,6 +288,15 @@ img{
   font-weight: var(--font-semi);
   border-radius: .5rem;
 }
+.fundo{
+  display: inline-block;
+  background-color:var(--first-color);
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: .6rem;
+  
+}
 .button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
@@ -522,7 +531,10 @@ center {
 }
 textarea {
   border-radius: 10px;
-  box-shadow: 1px 6px 8px rgb(80, 77, 77);
+  box-shadow: 1px 6px 8px rgb(80, 77, 77); 
+  background-image: url(/assets/img/icon-terminal.1623339715.svg); ;
+  background-repeat: no-repeat;
+  
 }
 
 

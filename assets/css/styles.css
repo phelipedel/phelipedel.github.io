@@ -529,14 +529,15 @@ form {
 center {
   text-align: -webkit-center;
 }
+
 textarea {
   border-radius: 10px;
-  box-shadow: 1px 6px 8px rgb(80, 77, 77); 
+  box-shadow: 1px 6px 8px rgb(0 0 0)); 
   background-image: url(/assets/img/icon-terminal.1623339715.svg); ;
   background-repeat: no-repeat;
-  
-}
-
+  background-color: rgb(34 33 35);
+  color: white
+  }
 
 @media screen and (min-width: 1024px){
   .bd-grid{
